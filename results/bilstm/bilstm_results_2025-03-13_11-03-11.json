@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-03-13_11-03-11",
+  "parameters": {
+    "max_vocab": 20000,
+    "max_len": 100,
+    "embed_dim": 300,
+    "hidden_dim": 128,
+    "batch_size": 32,
+    "learning_rate": 0.0003,
+    "num_epochs": 15,
+    "weight_decay": 0.0008,
+    "dropout_rate": 0.65
+  },
+  "evaluation_results": {
+    "balanced_accuracy": 0.5438145890449589,
+    "precision_weighted": 0.5553088127018042,
+    "recall_weighted": 0.55125,
+    "f1_weighted": 0.5498572245794192,
+    "f1_class_0": 0.6036671368124118,
+    "f1_class_1": 0.523972602739726,
+    "f1_class_2": 0.4820846905537459
+  }
+}

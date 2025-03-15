@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-03-13_12-20-53",
+  "model_name": "logreg",
+  "parameters": {
+    "class_weight": "balanced",
+    "max_iter": 1000,
+    "C": 0.1,
+    "solver": "lbfgs",
+    "feature_weights": {
+      "title_weight": 0.7,
+      "article_weight": 0.3
+    }
+  },
+  "evaluation_results": {
+    "training": {
+      "balanced_accuracy": 0.6900643610647087,
+      "macro_precision": 0.6679919368249821,
+      "macro_recall": 0.6900643610647087,
+      "macro_f1": 0.6683460482402711,
+      "class_metrics": {
+        "0": {
+          "precision": 0.7248908296943232,
+          "recall": 0.7286027798098025,
+          "f1-score": 0.726742064939803,
+          "support": 1367
+        },
+        "1": {
+          "precision": 0.7906281156530409,
+          "recall": 0.6224489795918368,
+          "f1-score": 0.6965305226174792,
+          "support": 1274
+        },
+        "2": {
+          "precision": 0.488456865127582,
+          "recall": 0.7191413237924866,
+          "f1-score": 0.5817655571635311,
+          "support": 559
+        }
+      }
+    },
+    "validation": {
+      "balanced_accuracy": 0.5208559124198319,
+      "macro_precision": 0.5022398188283036,
+      "macro_recall": 0.5208559124198319,
+      "macro_f1": 0.5036957866196691,
+      "class_metrics": {
+        "0": {
+          "precision": 0.5659824046920822,
+          "recall": 0.5761194029850746,
+          "f1-score": 0.5710059171597633,
+          "support": 335
+        },
+        "1": {
+          "precision": 0.5657370517928287,
+          "recall": 0.4409937888198758,
+          "f1-score": 0.4956369982547993,
+          "support": 322
+        },
+        "2": {
+          "precision": 0.375,
+          "recall": 0.5454545454545454,
+          "f1-score": 0.4444444444444444,
+          "support": 143
+        }
+      }
+    }
+  }
+}

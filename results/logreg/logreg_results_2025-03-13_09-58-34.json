@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-03-13_09-58-34",
+  "model": "LogisticRegression",
+  "parameters": {
+    "C": 1.0,
+    "max_iter": 1000,
+    "solver": "lbfgs",
+    "class_weight": "balanced",
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "training_metrics": {
+    "accuracy": 0.9749570978017003,
+    "precision_macro": 0.9631014684419984,
+    "recall_macro": 0.9749570978017003,
+    "f1_macro": 0.968633705051431,
+    "precision_weighted": 0.9692537376912564,
+    "recall_weighted": 0.96875,
+    "f1_weighted": 0.9687459919696018,
+    "precision_class_0": 0.9811888638073739,
+    "recall_class_0": 0.9539136795903438,
+    "f1_class_0": 0.9673590504451038,
+    "precision_class_1": 0.9701960784313726,
+    "recall_class_1": 0.9709576138147566,
+    "f1_class_1": 0.9705766967438211,
+    "precision_class_2": 0.9379194630872483,
+    "recall_class_2": 1.0,
+    "f1_class_2": 0.9679653679653679
+  },
+  "validation_metrics": {
+    "accuracy": 0.606185983603245,
+    "precision_macro": 0.6087061227131116,
+    "recall_macro": 0.606185983603245,
+    "f1_macro": 0.60701299182309,
+    "precision_weighted": 0.6222827762293035,
+    "recall_weighted": 0.6225,
+    "f1_weighted": 0.621871364263976,
+    "precision_class_0": 0.6358543417366946,
+    "recall_class_0": 0.6776119402985075,
+    "f1_class_0": 0.6560693641618497,
+    "precision_class_1": 0.6402640264026402,
+    "recall_class_1": 0.6024844720496895,
+    "f1_class_1": 0.6208,
+    "precision_class_2": 0.55,
+    "recall_class_2": 0.5384615384615384,
+    "f1_class_2": 0.5441696113074205
+  }
+}

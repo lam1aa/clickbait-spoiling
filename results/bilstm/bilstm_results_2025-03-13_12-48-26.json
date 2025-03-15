@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-03-13_12-48-26",
+  "model_name": "bilstm",
+  "parameters": {
+    "vocab_size": 7824,
+    "max_len": 50,
+    "embed_dim": 300,
+    "hidden_dim": 64,
+    "dropout_rate": 0.65,
+    "batch_size": 64,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0008,
+    "epochs_trained": 5,
+    "use_pretrained": true,
+    "freeze_embeddings": true
+  },
+  "evaluation_results": {
+    "balanced_accuracy": 0.39136625866022356,
+    "macro_precision": 0.5171103395061728,
+    "macro_recall": 0.39136625866022356,
+    "macro_f1": 0.3507757816268455,
+    "class_metrics": {
+      "0": {
+        "precision": 0.5185185185185185,
+        "recall": 0.208955223880597,
+        "f1-score": 0.2978723404255319,
+        "support": 335
+      },
+      "1": {
+        "precision": 0.4328125,
+        "recall": 0.860248447204969,
+        "f1-score": 0.5758835758835759,
+        "support": 322
+      },
+      "2": {
+        "precision": 0.6,
+        "recall": 0.1048951048951049,
+        "f1-score": 0.17857142857142858,
+        "support": 143
+      }
+    },
+    "training_history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.1145922541618347,
+        "train_acc": 0.3359375,
+        "val_loss": 1.0910435089698205,
+        "val_acc": 0.38421779388684
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.1026283288002015,
+        "train_acc": 0.361875,
+        "val_loss": 1.0889967038081243,
+        "val_acc": 0.394131933392154
+      },
+      {
+        "epoch": 3,
+        "train_loss": 1.1007372450828552,
+        "train_acc": 0.34625,
+        "val_loss": 1.0872329473495483,
+        "val_acc": 0.39046802213577037
+      },
+      {
+        "epoch": 4,
+        "train_loss": 1.0938758826255799,
+        "train_acc": 0.3753125,
+        "val_loss": 1.0855272366450384,
+        "val_acc": 0.37680243183163364
+      },
+      {
+        "epoch": 5,
+        "train_loss": 1.0893986201286316,
+        "train_acc": 0.379375,
+        "val_loss": 1.0835556158652673,
+        "val_acc": 0.39136625866022356
+      }
+    ]
+  }
+}

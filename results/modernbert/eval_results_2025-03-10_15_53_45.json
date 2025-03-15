@@ -1,0 +1,26 @@
+{
+    "timestamp": "2025-03-10_15_53_45",
+    "parameters": {
+        "model_name": "answerdotai/ModernBERT-base",
+        "max_length": 128,
+        "batch_size": 16,
+        "learning_rate": 8e-05,
+        "num_epochs": 3,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.15
+    },
+    "evaluation_results": {
+        "eval_loss": 0.7732,
+        "eval_balanced_accuracy": 0.6732,
+        "eval_precision_weighted": 0.6921,
+        "eval_recall_weighted": 0.6913,
+        "eval_f1_weighted": 0.6905,
+        "eval_f1_class_0": 0.7016,
+        "eval_f1_class_1": 0.6996,
+        "eval_f1_class_2": 0.6439,
+        "eval_runtime": 114.6498,
+        "eval_samples_per_second": 6.978,
+        "eval_steps_per_second": 0.436,
+        "epoch": 3
+    }
+}
